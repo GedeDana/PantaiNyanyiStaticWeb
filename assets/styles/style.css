@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Rubik','Sans-Serif';
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: inline;
+}
+p,td{
+    font-weight: 200;
+}
+
+span{
+    color:#FFD523 ;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 10px;
+    background: url(../image/pemandangan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+}
+
+nav{
+    padding: 5px;
+    position: sticky;
+    background-color: #2C2E43;
+    width: 100%;
+    top: 0;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 40px;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: #FFD523 ;
+    color: #2C2E43;
+    border-radius: 2px;
+    padding: 5px;
+}
+footer{
+    padding: 20px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #2C2E43;
+    text-align: center;
+    font-weight: bold;
+}
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+h2,h3 {
+    color: #2C2E43;
+}
+.subTitle{
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: #FFD523;
+    border-radius: 5px;
+    
+}
+
+.subTitle:hover {
+    background-color: #2C2E43;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.box{
+    
+    background-color: #FFD523;
+    width: 100px;
+    height: 50px;
+    margin: 20px 0px;
+    border-radius: 5px;
+
+}
+.box h3 a{
+    text-decoration: none;
+    color:  #2C2E43;;
+}
+.box h3{
+    font-size: 15px;
+    text-align: center;
+    padding: 13px 15px;
+}
+.profile img {
+    width: 200px;
+}
+.profile header{
+    text-align: center;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+aside{
+    float: left;
+    width: 25%;
+    padding-left: 20px; 
+}
+
+button{
+    display: inline-block;
+    border: 0;
+    padding: 8px 10px;
+    background-color: #FFD523;
+    border-radius: 5px;
+    color: #2C2E43;
+    font-size: 20px;
+}
+.Prev {
+    margin-left: 10px;
+}
+button:active{
+    display: inline-block;
+    border: 0;
+    padding: 8px 10px;
+    background-color: #2C2E43;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width :1000px){
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
